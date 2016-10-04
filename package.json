@@ -1,6 +1,6 @@
 {
   "name": "clocktime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert from seconds, minutes, hours to clock time (12/24hrs)",
   "main": "index.js",
   "scripts": {
