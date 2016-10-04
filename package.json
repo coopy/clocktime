@@ -1,0 +1,37 @@
+{
+  "name": "clocktime",
+  "version": "0.0.1",
+  "description": "Convert from seconds, minutes, hours to clock time (12/24hrs)",
+  "main": "index.js",
+  "scripts": {
+    "check": "npm run lint && npm test",
+    "lint": "eslint .",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopy/clocktime.git"
+  },
+  "keywords": [
+    "hours",
+    "minutes",
+    "seconds",
+    "clock",
+    "convert",
+    "parse"
+  ],
+  "author": "Per Nilsson <per@sproutlab.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coopy/clocktime/issues"
+  },
+  "homepage": "https://github.com/coopy/clocktime#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.7.1",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "^3.1.0"
+  }
+}
